@@ -78,7 +78,7 @@ h3{
   font-size: 55px;
   font-weight: normal;
 }
-#sobre-mi .contenedor-sobremi{
+#sobre-mi .contenedor-sobremi,.contenedor-post{
   display: flex;
   justify-content:space-around;
 }
@@ -382,4 +382,8 @@ html{
     margin-bottom: 40px;
 }
 
+}
+/*New Styles*/
+.nav-links {
+  text-align: center;
 }

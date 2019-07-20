@@ -14,7 +14,7 @@
   <footer>
     <div class="contenedor">
       <div class="redes">
-        <a href="#"><img src="<?php echo get_template_directory_uri() ?>/img/facebook.png" alt="imagen de facebook"></a>
+        <a href="#"><img src="<?php echo get_template_directory_uri() ?>/img/twitter.png" alt="imagen de twitter"></a>
         <a href="#"><img src="<?php echo get_template_directory_uri() ?>/img/medium.png" alt="imagen de facebook"></a>
         <a href="#"><img src="<?php echo get_template_directory_uri() ?>/img/github.png" alt="imagen de facebook"></a>
         <a href="#"><img src="<?php echo get_template_directory_uri() ?>/img/linkedin.png" alt="imagen de facebook"></a>

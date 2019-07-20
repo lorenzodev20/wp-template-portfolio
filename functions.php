@@ -120,10 +120,6 @@ add_action( 'widgets_init', 'my_portfolio_widgets_init' );
  * Enqueue scripts and styles.
  */
 function my_portfolio_scripts() {
-	wp_enqueue_style( 'my-portfolio-style', get_template_directory_uri(). '/css/estilos.css' );
-	wp_enqueue_style( 'my-carousel-style', get_template_directory_uri().'/owl/owl.carousel.min.css');
-	wp_enqueue_style( 'my-default-style', get_template_directory_uri().'/owl/owl.theme.default.min.css');
-
 	wp_enqueue_script( 'my-portfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'my-portfolio-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
@@ -134,25 +130,7 @@ function my_portfolio_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_portfolio_scripts' );
 
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
 
-/**
- * Custom template tags for this theme.
- */
-require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Functions which enhance the theme by hooking into WordPress.
- */
-require get_template_directory() . '/inc/template-functions.php';
-
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
 
 /**
  * Load Jetpack compatibility file.
