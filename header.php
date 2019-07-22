@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/estilos.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/owl/owl.carousel.min.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/owl/owl.theme.default.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+  <script src="<?php echo get_template_directory_uri() ?>/js/app.js"></script>
 
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>

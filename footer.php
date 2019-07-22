@@ -24,10 +24,9 @@
       </div>
     </div>
   </footer>
-
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
 <script src="<?php echo get_template_directory_uri() ?>/owl/owl.carousel.min.js"></script>
 <script>
+//funcion Carousel
 $('.owl-carousel').owlCarousel({
   loop:true,
   margin:10,

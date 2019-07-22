@@ -57,7 +57,7 @@ h2{
     text-align: center;
 }
 /*Estilos para el boton*/
-.contenedor-titulo a, #sobre-mi a, #blog a,#que-esperas a, #contacto input[type="submit"]{
+.contenedor-titulo a, #sobre-mi a, #blog a,#que-esperas a, #contacto input[type="submit"], .edit{
   font-size: 14px;
   color: #fff;
   background: #5cb8ff;
